@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Cargar el dataset
+# Cargar el dataset.
 df = pd.read_csv("world_population.csv")
 
 # Limpiar los nombres de las columnas

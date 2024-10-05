@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Cargar el dataset
+# Cargar el dataset.
 df = pd.read_csv("vgsales.csv")
 
 # Seleccionar las columnas y los 10 juegos con más ventas
