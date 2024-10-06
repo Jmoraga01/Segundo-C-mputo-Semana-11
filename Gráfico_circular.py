@@ -2,6 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 #aqui en es donde se carga el datase
 df = pd.read_csv("world_population.csv")
 
@@ -12,7 +13,8 @@ df.columns = df.columns.str.strip()
 print(df.columns.tolist())
 print(df.head())
 
-#en esta línea de código es es donde nosotros podemos cambiar los nombres según lo que encontremos en este DataFrame
+#en esta línea de código es es donde nosotros podemos
+#cambiar los nombres según lo que encontremos en este DataFrame
 try:
     continentes = df['Continent']  
     población = df['2022 Population'] 

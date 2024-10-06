@@ -8,25 +8,25 @@ except Exception as e:
     print(f"Ocurrió un error al leer el archivo: {e}")
     exit()
 
-# Asegúrate de que las columnas existen
+#aqui en esta parte nos aseguramos que las columnas si existan 
 if 'Date' not in df.columns or 'Close' not in df.columns:
     print("Las columnas 'Date' o 'Close' no están en el DataFrame.")
     exit()
 
-# Convertir la columna 'Date' a tipo datetime y ordenar el DataFrame
+#aqui convertimos la columna date a tipo datetime para ordenar el dataFrame
 df['Date'] = pd.to_datetime(df['Date'])
 df = df.sort_values(by='Date')
 
-# Seleccionar las primeras 100 filas después de ordenar
+#aqui lo que hicimos es seleccionar las primeras 100 filas despues de ordenar
 df = df.head(100)
 
-# Extraer fechas y precios
+#aqui extraemos las fechas y los precios
 fechas = df['Date']
 precio_bitcoin = df['Close']
 
-# Gráfico de líneas
+#y por ultimo aqui usamos el grafico de lineas 
 plt.plot(fechas, precio_bitcoin, marker='o', color='green')
-plt.title("Evolución del Precio de Bitcoin")
+plt.title("Evolución del Precio de Bitcoin") #este es el titulo del grafico por decirlo asi
 plt.xlabel("Fecha")
 plt.ylabel("Precio de Cierre (USD)")
 plt.grid(True)
