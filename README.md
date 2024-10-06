@@ -1,4 +1,4 @@
----- Documentacion de ejercicios ----
+---- Documentación de ejercicios ----
 
 Ejercio 1
 en este primer ejercio creamos un grafico circular que muestra todos los datos del cresimiento de la poblacion mundial y 
