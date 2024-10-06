@@ -1,3 +1,4 @@
+#aqui importamos las cosas que vamos a utilizar
 import pandas as pd
 import matplotlib.pyplot as plt
 
