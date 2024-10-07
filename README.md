@@ -1,4 +1,4 @@
-                                                            **LABOTARIO 2 SEGUNDO COMPUTO. PROGRAMACION III**
+                                                        **LABOTARIO 2 SEGUNDO COMPUTO. PROGRAMACION III**
 
 Este laboratorio fue creado por:
 
@@ -7,11 +7,11 @@ Este laboratorio fue creado por:
 **Erick Josue Chavez Moraga**
 
 
-**BREVE EXPLICACION DE LO QUE TRATA EL GRAFICO, Y ASIGNACION DE LOS LINK DE LOS DATASET QUE SE USARON**
+**BREVE EXPLICACION DEL ANALISIS LO QUE SE PUEDE OBSERVAR EN LOS GRAFICOS, Y ASIGNACION DE LOS LINK DE LOS DATASET QUE SE USARON**
 
 **GRAFICO 1:**
 
-Como primer grafico tenemos a un grafico de barras que nosotros lo realizamos para que nos muestre las venta globales de los videojuegos, o sea que en el grafico de barra se muestra las ventas globales de los videojuegos mas vendidos a nivel mundial, para esto nosotros descargamos en **kaggle** un archivo csv, y lo implementamos a nuestro codigo, mostrandonos asi estos resultados que he mencionado, el link del dataset que utilizamos para que este grafico funcionara fue el siguiente:
+Como primer grafico tenemos a un grafico de barras en el cual se puede observar las venta globales que han habido de los videojuegos, o sea que en el grafico de barra se muestra las ventas globales de los videojuegos mas vendidos a nivel mundial, y tambien podemos observar el nombre del cada videojuego, para esto nosotros descargamos en **kaggle** un dataset y lo descargamos en un archivo csv, y lo implementamos a nuestro codigo, mostrandonos asi estos resultados que he mencionado, el link del dataset que utilizamos para que este grafico funcionara fue el siguiente:
 
 **LINK**
 https://www.kaggle.com/datasets/gregorut/videogamesales
@@ -19,7 +19,7 @@ https://www.kaggle.com/datasets/gregorut/videogamesales
 
 
 **GRAFICO 2:**
-En este segundo grafico el cual es un grafico de lineas, el en este grafico se puede observar primeramente el titulo del grafico la volativilidad del precio del Bitcoin, durante un tiempo en el cual apartir del dataset podemos ver que se nos muestra el año, mes y dia en el que el Bitcoin a tenido cambios notables como cuando ha subido mas o ha bajado, en este grafico lo realizamos que sea un grafico de linea y de color verde para que se vea un poco mas bonito el diseño y mas llamativo y tambien que sea un poco mas entendible, el link que utilizamos para que funcionara la informacion del dataset es el siguiente.
+En este segundo grafico el cual es un grafico de lineas, en el cual en este grafico se puede observar primeramente el titulo del grafico la volativilidad del precio del Bitcoin, durante un tiempo en el cual apartir del dataset podemos ver que se nos muestra el año, mes y dia en el que el Bitcoin a tenido cambios notables como cuando ha subido mas o ha bajado, en este grafico lo realizamos que sea un grafico de linea y de color verde para que se vea un poco mas bonito el diseño y mas llamativo y tambien que sea un poco mas entendible, el link que utilizamos para que funcionara la informacion del dataset es el siguiente.
 
 **LINK**
 https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory
