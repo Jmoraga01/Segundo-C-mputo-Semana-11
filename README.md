@@ -1,4 +1,4 @@
-                                                        **LABOTARIO 2 SEGUNDO COMPUTO. PROGRAMACION III**
+                                      **LABOTARIO 2 SEGUNDO COMPUTO. PROGRAMACION III**
 
 Este laboratorio fue creado por:
 
