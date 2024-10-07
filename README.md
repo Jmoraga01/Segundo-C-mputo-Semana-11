@@ -11,7 +11,7 @@ Este laboratorio fue creado por:
 
 **GRAFICO 1:**
 
-Como primer grafico tenemos a un grafico de barras que nosotros lo realizamos para que nos muestre las venta globales de los videojuegos, o sea que en el grafico de barra se muestra las ventas globales de los videojuegos mas vendidos a nivel mundial, para esto nosotros descargamos en **kaggle** un archivo csv, y lo implementamos a github, mostrandonos asi estos resultados que he mencionado, el link del dataset que utilizamos para que este grafico funcionara fue el siguiente:
+Como primer grafico tenemos a un grafico de barras que nosotros lo realizamos para que nos muestre las venta globales de los videojuegos, o sea que en el grafico de barra se muestra las ventas globales de los videojuegos mas vendidos a nivel mundial, para esto nosotros descargamos en **kaggle** un archivo csv, y lo implementamos a nuestro codigo, mostrandonos asi estos resultados que he mencionado, el link del dataset que utilizamos para que este grafico funcionara fue el siguiente:
 
 **LINK**
 https://www.kaggle.com/datasets/gregorut/videogamesales
