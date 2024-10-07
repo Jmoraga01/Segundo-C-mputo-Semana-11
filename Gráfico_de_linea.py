@@ -2,6 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#aqui se coloca el nombre de nuestro csv que vamos a utilizar
 try:
     df = pd.read_csv("coin_Bitcoin.csv")
 except Exception as e:
@@ -31,5 +32,5 @@ plt.xlabel("Fecha")
 plt.ylabel("Precio de Cierre (USD)")
 plt.grid(True)
 plt.xticks(rotation=45)
-plt.tight_layout()  # Ajustar la gráfica para que no se corten las etiquetas
-plt.show()
+plt.tight_layout()  
+plt.show() #aqui mostramos el grafico

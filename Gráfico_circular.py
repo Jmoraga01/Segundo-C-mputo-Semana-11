@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-#aqui en es donde se carga el datase
+#aqui en es donde se carga el datase, en el cual ponemos el nombre de nuestro archivo csv
 df = pd.read_csv("world_population.csv")
 
 #esta linea de codigo es para limpiar los nombres de las columnas
@@ -40,9 +40,10 @@ try:
     plt.setp(autotexts, size=10, weight='bold', color='white')
     plt.setp(texts, size=12)
 
+    #este es el titulo del grafico
     plt.title("Distribución de la Población Mundial por Continentes", fontsize=16)
-    plt.axis('equal')  #esta lo ponemos para que el gráfico sea un círculo
-    plt.show()
+    plt.axis('equal')  
+    plt.show() #aqui mostramos el grafico
 
 except KeyError as e:
     print(f"Error: {e}. Asegúrate de que los nombres de las columnas sean correctos.")
